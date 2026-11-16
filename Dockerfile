@@ -1,5 +1,5 @@
 # 1. Specify the base OS and runtime image
-FROM node:20-alpine
+FROM node:latest
 
 # 2. Set the working directory inside the container
 WORKDIR /app
